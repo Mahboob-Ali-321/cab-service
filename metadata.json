@@ -1,0 +1,6 @@
+{
+  "name": "City Cab Service Indore",
+  "description": "Reliable cab and pilgrimage taxi service in Indore. Clean Dzire, Ertiga, and Tempo Travellers for local travel, airport transfers, Ujjain Mahakal, and Omkareshwar Jyotirlinga.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
