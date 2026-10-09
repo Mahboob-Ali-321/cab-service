@@ -91,8 +91,9 @@ export const ToursPage: React.FC = () => {
                   <div className="relative aspect-[16/10] bg-[#dee8ff]">
                     <img
                       src={pkg.image}
-                      alt={pkg.titleEn}
+                      alt={pkg.id === 'pkg-ujjain' ? 'Mahakaleshwar Jyotirlinga temple, Ujjain' : pkg.titleEn}
                       className="w-full h-full object-cover"
+                      style={pkg.id === 'pkg-ujjain' ? { objectPosition: 'center 20%' } : undefined}
                       loading="lazy"
                     />
                     <div className="absolute top-3 left-3 bg-[#8d4b00] text-white px-2.5 py-1 rounded text-xs font-bold">
@@ -187,8 +188,9 @@ export const ToursPage: React.FC = () => {
                   <div className="aspect-[16/10] overflow-hidden">
                     <img
                       src={dest.image}
-                      alt={dest.nameEn}
+                      alt={dest.id === 'ujjain' ? 'Mahakaleshwar Jyotirlinga temple, Ujjain' : dest.nameEn}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                      style={dest.id === 'ujjain' ? { objectPosition: 'center 20%' } : undefined}
                       loading="lazy"
                     />
                   </div>

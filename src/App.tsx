@@ -33,7 +33,7 @@ export default function App() {
           <Header />
 
           {/* Main content route view */}
-          <main className="flex-1 w-full pt-20 sm:pt-24 md:pt-26">
+          <main className="flex-1 w-full pt-16 md:pt-20">
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/services" element={<ServicesPage />} />

@@ -14,9 +14,9 @@ export const Footer: React.FC = () => {
           <div className="space-y-3">
             <Link to="/" className="inline-block focus:outline-none group">
               <img
-                src={BUSINESS_DATA.logoUrl}
-                alt="City Cab Service Logo"
-                className="h-14 sm:h-16 md:h-18 w-auto max-w-[260px] sm:max-w-[300px] object-contain transition-transform group-hover:scale-102"
+                src="/city-cab-logo-full.png"
+                alt="City Cab Service logo"
+                className="h-14 sm:h-16 md:h-18 lg:h-20 w-auto object-contain transition-transform group-hover:scale-102"
               />
             </Link>
             <p className="text-xs text-[#554336] leading-relaxed">

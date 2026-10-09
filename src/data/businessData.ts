@@ -108,7 +108,7 @@ export const BUSINESS_DATA = {
   permitBadge: 'Commercial MP-09 Permit',
   permitBadgeHi: 'कमर्शियल MP-09 परमिट',
   logoUrl: '/city-cab-logo.png',
-  logoIconUrl: '/city-cab-icon.png',
+  logoIconUrl: '/city-cab-logo.png',
 
   // Real vehicle data with exact uploaded images and registration numbers
   vehicles: [
@@ -305,7 +305,7 @@ export const BUSINESS_DATA = {
       distanceHi: 'इंदौर से 55 किमी • 1.2 घंटे',
       tagEn: 'Jyotirlinga #1',
       tagHi: 'ज्योतिर्लिंग #1',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD0WBF87cxucVxLIjR1TyRo5eLxoahXSAG438fezeyl-gipkq9hsHhCx0UmhVuO_-FmrVIte2oq2IV_Kk5bXqArz6lT2Z-1KLQbeKoiN4yOxn4XYe40IPqKCACtqOpdjH9f2ERO5INPlyOfpP5zZ9MOyWUYd3a9VVw6fNgmr3PfB70D3lIP_dLbpBXhFXRtF8v-pjF3Va6qqiPDscT8OlE6yw13jSPLG-ndK24Dzrw',
+      image: '/images/mahakaleshwar-ujjain.jpg',
       descEn: 'Home of Mahakal Jyotirlinga, Shree Mahakal Lok corridor, Harsiddhi Mata, Kal Bhairav, and holy Ram Ghat evening Aarti.',
       descHi: 'विश्व प्रसिद्ध महाकालेश्वर ज्योतिर्लिंग, भव्य श्री महाकाल लोक कॉरिडोर, हरसिद्धि माता, काल भैरव और रामघाट संध्या आरती।',
       chipsEn: ['Bhasma Aarti pickup 3 AM', 'Mahakal Lok Tour', 'Kal Bhairav Darshan'],
@@ -397,7 +397,7 @@ export const BUSINESS_DATA = {
       distanceHi: '120 किमी राउंड ट्रिप',
       descEn: 'Mahakaleshwar Temple, Shree Mahakal Lok, Kal Bhairav, Mangalnath, Ramghat evening Aarti.',
       descHi: 'महाकालेश्वर ज्योतिर्लिंग, महाकाल लोक, काल भैरव, मंगलनाथ, हरसिद्धि माता व रामघाट संध्या आरती।',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD0WBF87cxucVxLIjR1TyRo5eLxoahXSAG438fezeyl-gipkq9hsHhCx0UmhVuO_-FmrVIte2oq2IV_Kk5bXqArz6lT2Z-1KLQbeKoiN4yOxn4XYe40IPqKCACtqOpdjH9f2ERO5INPlyOfpP5zZ9MOyWUYd3a9VVw6fNgmr3PfB70D3lIP_dLbpBXhFXRtF8v-pjF3Va6qqiPDscT8OlE6yw13jSPLG-ndK24Dzrw',
+      image: '/images/mahakaleshwar-ujjain.jpg',
       rates: {
         dzire: 1899,
         ertiga: 2699,
@@ -610,6 +610,16 @@ export const BUSINESS_DATA = {
     {
       id: 'gal-7',
       category: 'destinations',
+      src: '/images/mahakaleshwar-ujjain.jpg',
+      titleEn: 'Mahakaleshwar Jyotirlinga Temple, Ujjain',
+      titleHi: 'श्री महाकालेश्वर ज्योतिर्लिंग मंदिर, उज्जैन',
+      storyEn: 'Iconic sanctum spire, sacred shikhara with red flag, and ancient stone mandapa at world-renowned Mahakaleshwar Jyotirlinga.',
+      storyHi: 'विश्व प्रसिद्ध श्री महाकालेश्वर ज्योतिर्लिंग का भव्य शिखर, लाल ध्वज एवं नयनाभिराम मंदिर परिसर।',
+      metaEn: '55 km from Indore • Jyotirlinga #1'
+    },
+    {
+      id: 'gal-8',
+      category: 'destinations',
       src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCz6pKttUJOXPU7x1Jk76FCxRc7e-bet5lp7s8XKZX0tjO33y5Va_x-z3yMVtj4GekKMG05XCw92UZ2ly-RnL4ApLdPfr_nWH7_2khdtnO1boJchV2sDLv9AEmSrr_hf2LCcrtkNsi4oEsckZSoGOcBWFLqozzTiej83wrRKHe2LYKeDtIy-3jFpREodnOmFBdIlV7j9vHK93Sc6vKbMDAWBFy4qclE3SOU5t0OcTpiZtvD8AjOO3BC',
       titleEn: 'Omkareshwar Temple on Holy Narmada River Ghats',
       titleHi: 'पवित्र नर्मदा तट पर ओंकारेश्वर मंदिर',
@@ -618,7 +628,7 @@ export const BUSINESS_DATA = {
       metaEn: '78 km from Indore • Holy Narmada'
     },
     {
-      id: 'gal-8',
+      id: 'gal-9',
       category: 'destinations',
       src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAf0CYLQsZY_-l5mNZcu26_L0i-ICNDB2WLiK6VUvj4mqK7HC8Q3GN-AjcnpHAlNt40r7bSvTj8o-zgDZk79ArQeS5cxuEkuRomh2aIBnXE0nJ0UEfbbAxudfM1kP0Teb7ah8OgWYSqLzNz_Q1yT__RSA2WQ8gFiT_FVN5KjbpawSBg3CCpwD3ocKCRAG-vqEQPJeyImiIz2zgI4T_kYsdFIpCh9FxhkNQo1gIbO9pcX17y3-vDrDWG',
       titleEn: 'Patalpani Waterfall Gorge Near Indore',

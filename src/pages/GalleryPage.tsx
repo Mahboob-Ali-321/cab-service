@@ -80,8 +80,9 @@ export const GalleryPage: React.FC = () => {
                 <div className="relative aspect-square overflow-hidden bg-[#dee8ff]">
                   <img
                     src={photo.src}
-                    alt={photo.titleEn}
+                    alt={photo.id === 'gal-7' ? 'Mahakaleshwar Jyotirlinga temple, Ujjain' : photo.titleEn}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    style={photo.id === 'gal-7' ? { objectPosition: 'center 20%' } : undefined}
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#263143]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">

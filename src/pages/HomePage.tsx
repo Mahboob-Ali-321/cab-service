@@ -561,8 +561,9 @@ export const HomePage: React.FC = () => {
                   <div className="relative aspect-[16/10] bg-[#dee8ff] overflow-hidden">
                     <img
                       src={dest.image}
-                      alt={dest.nameEn}
+                      alt={dest.id === 'ujjain' ? 'Mahakaleshwar Jyotirlinga temple, Ujjain' : dest.nameEn}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      style={dest.id === 'ujjain' ? { objectPosition: 'center 20%' } : undefined}
                       loading="lazy"
                     />
                     <div className="absolute top-3 left-3 bg-[#263143]/85 backdrop-blur-md text-white px-2.5 py-1 rounded text-xs font-medium">

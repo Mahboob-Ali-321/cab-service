@@ -67,8 +67,9 @@ export const GalleryLightbox: React.FC<GalleryLightboxProps> = ({
           <div className="lg:col-span-7 bg-[#263143] flex flex-col justify-center items-center p-3 sm:p-4 relative min-h-[260px] sm:min-h-[320px] lg:min-h-[460px]">
             <img
               src={photo.src}
-              alt={t(photo.titleEn, photo.titleHi)}
+              alt={photo.id === 'gal-7' ? 'Mahakaleshwar Jyotirlinga temple, Ujjain' : t(photo.titleEn, photo.titleHi)}
               className="max-w-full max-h-[50vh] sm:max-h-[58vh] object-contain rounded-xl shadow-lg"
+              loading="lazy"
             />
             {photo.metaEn && (
               <div className="absolute top-4 sm:top-6 left-4 sm:left-6 bg-[#263143]/85 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-md text-[11px] sm:text-xs font-semibold text-white flex items-center gap-1.5 shadow">
