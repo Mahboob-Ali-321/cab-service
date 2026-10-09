@@ -107,8 +107,8 @@ export const BUSINESS_DATA = {
   workingHoursHi: '24 घंटे खुला • सातों दिन सेवा उपलब्ध',
   permitBadge: 'Commercial MP-09 Permit',
   permitBadgeHi: 'कमर्शियल MP-09 परमिट',
-  logoUrl: '/city-cab-logo.png',
-  logoIconUrl: '/city-cab-logo.png',
+  logoUrl: '/city-cab-logo-v2.png',
+  logoIconUrl: '/city-cab-logo-v2.png',
 
   // Real vehicle data with exact uploaded images and registration numbers
   vehicles: [

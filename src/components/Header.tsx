@@ -37,23 +37,16 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
         {/* Left: Logo */}
         <Link
-          to="/"
-          className="flex items-center shrink-0 focus:outline-none"
-          title="City Cab Service Indore"
-        >
-          {/* Header (below sm, 640px): icon-only */}
-          <img
-            src="/city-cab-logo-icon.png"
-            alt="City Cab Service"
-            className="block sm:hidden h-10 w-auto object-contain"
-          />
-          {/* Header (sm and above): full logo */}
-          <img
-            src="/city-cab-logo-full.png"
-            alt="City Cab Service logo"
-            className="hidden sm:block h-12 sm:h-14 lg:h-16 w-auto object-contain"
-          />
-        </Link>
+  to="/"
+  className="flex items-center shrink-0 focus:outline-none"
+  title="City Cab Service Indore"
+>
+  <img
+    src="/city-cab-logo-v2.png"
+    alt="City Cab Service logo"
+    className="block h-14 sm:h-16 lg:h-[72px] w-auto object-contain"
+  />
+</Link>
 
         {/* Center: Nav links (Home, Services, Fleet, Tours, About, Reviews, Gallery, FAQ, Contact) with gap-6 to gap-8 at xl */}
         <nav className="hidden xl:flex items-center gap-6 2xl:gap-8">
@@ -130,7 +123,7 @@ export const Header: React.FC = () => {
             {/* Top of drawer: Full Logo */}
             <div className="pb-4 mb-3 border-b border-[#f0f3ff] flex items-center justify-between">
               <img
-                src="/city-cab-logo-full.png"
+                src="/city-cab-logo-v2.png"
                 alt="City Cab Service logo"
                 className="h-12 sm:h-14 w-auto object-contain"
               />

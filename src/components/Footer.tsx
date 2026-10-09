@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-3">
             <Link to="/" className="inline-block focus:outline-none group">
               <img
-                src="/city-cab-logo-full.png"
+                src="/city-cab-logo-v2.png"
                 alt="City Cab Service logo"
                 className="h-14 sm:h-16 md:h-18 lg:h-20 w-auto object-contain transition-transform group-hover:scale-102"
               />
